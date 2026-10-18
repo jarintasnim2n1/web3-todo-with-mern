@@ -1,0 +1,9 @@
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  // Backend API URL
+  env: {
+    BACKEND_URL: process.env.BACKEND_URL || "http://localhost:5000",
+  },
+};
+
+module.exports = nextConfig;
